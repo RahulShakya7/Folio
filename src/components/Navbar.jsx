@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 // import { styles } from '../styles';
-import { close, logo, menu } from '../assets';
+import { close, menu, r } from '../assets';
 import { navLinks } from '../constants';
 
 const Navbar = () => {
@@ -15,7 +15,7 @@ const Navbar = () => {
             setActive("");
             window.scrollTo(0, 0);
           }}>
-            <img src={logo} alt="logo" className='w-9 h-9 object-contain'/>
+            <img src={r} alt="logo" className='w-9 h-9 object-contain'/>
             <p className='text-white text-[18px] font-bold flex'>Rahul &nbsp; <span className='sm:block hidden'>| Portfolio</span></p>
           </Link>
           <ul className='list-none hidden sm:flex flex-row gap-10'>

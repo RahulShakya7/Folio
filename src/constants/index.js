@@ -3,25 +3,20 @@ import {
   carrent,
   creator,
   css,
-  docker,
+  dart,
   figma,
   git,
   html,
   javascript,
   jobit,
-  meta,
+  mercantile,
   mobile,
   mongodb,
   nodejs,
   reactjs,
-  redux,
-  shopify,
-  starbucks,
   tailwind,
-  tesla,
   threejs,
   tripguide,
-  typescript,
   web
 } from "../assets";
   
@@ -73,16 +68,12 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "Dart",
+      icon: dart,
     },
     {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
     },
     {
       name: "Tailwind CSS",
@@ -108,63 +99,19 @@ import {
       name: "figma",
       icon: figma,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Top Level Domain Registrar",
+      company_name: "Mercantile",
+      icon: mercantile,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "October 2023 - November 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Assisting in .np domain registration",
+        "Modifying the domain servers",
+        "Client support",
       ],
     },
   ];
@@ -198,9 +145,9 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "KnowYourRide",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "This web platform provides users with up-to-date vehicle news and the latest lineups from diverse automotive companies. With a comprehensive vehicle listing, users can review cars themselves and access others' feedback, facilitating informed decision-making in the automotive realm.",
       tags: [
         {
           name: "react",
@@ -216,7 +163,7 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/RahulShakya7/KnowYourRide.git",
     },
     {
       name: "Job IT",
